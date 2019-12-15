@@ -1,24 +1,22 @@
-# README
+# README  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description(まとめ)  
+Docker環境下でRailsで作成した簡易掲示板アプリです。  
 
-Things you may want to cover:
+## Features（機能一覧）  
+* 一覧表示機能
+* 掲示板の作成機能
+* 掲示板の削除機能
+* 掲示板の投稿機能
+* ログイン、ログアウト認証
+* 画像アップロード機能
+* タグ付け機能
+* コメント機能
+* ユーザー登録機能
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Requirement(技術一覧)
+### Docker
+* Version 19.03.4
+* API version 1.40
+* Go version go1.12.10
+* OS/Arch darwin/amd64
